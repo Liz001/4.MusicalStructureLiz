@@ -1,0 +1,30 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Musical Structure</string>
+
+    <!-- Category name for album [CHAR LIMIT=20] -->
+    <string name="category_album">Album</string>
+
+    <!-- Category name for artist [CHAR LIMIT=20] -->
+    <string name="category_artist">Artist</string>
+
+    <!-- Category name for playlist [CHAR LIMIT=20] -->
+    <string name="category_playlist">Playlist</string>
+
+    <!-- Category name for tracks [CHAR LIMIT=20] -->
+    <string name="category_track">Track</string>
+
+    <!--List album name-->
+    <string name="song_name">Song name</string>
+    <string name="artist_name">Artist name</string>
+    <string name="album_name">Album name</string>
+
+    <!--Description of activity-->
+    <string name="activity_main_description">This is what we see when we start the app, we can press any of these buttons above, or use the player below with previous listening setting song</string>
+    <string name="activity_album_description">Here we have songs sorted by album in alphabetical order, also we can use player below or navigate between categories</string>
+    <string name="activity_artist_description">Here we have songs sorted by artist in alphabetical order, also we can use player below or navigate between categories</string>
+    <string name="activity_playlist_description">Here is were we have our custom order of songs, also we can use player below or navigate between categories</string>
+    <string name="activity_track_description">Here we have songs sorted by song in alphabetical order, also we can use player below or navigate between categories</string>
+
+
+</resources>

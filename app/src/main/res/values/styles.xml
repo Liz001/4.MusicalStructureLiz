@@ -1,0 +1,83 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_dark_color</item>
+        <item name="colorAccent">@color/tan_background</item>
+    </style>
+
+    <!-- Style for a banner base section -->
+    <style name="BannerBaseStyle">
+        <item name="android:layout_width">@dimen/list_item_width</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">@dimen/list_item_padding</item>
+        <item name="android:textColor">@color/banner_item_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/banner_text</item>
+        <item name="android:background">@color/category_banner_base</item>
+    </style>
+
+    <!-- Style for a banner selected section -->
+    <style name="BannerSelectedStyle">
+        <item name="android:layout_width">@dimen/list_item_width</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">@dimen/list_item_padding</item>
+        <item name="android:textColor">@color/banner_item_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/banner_text</item>
+        <item name="android:background">@color/category_banner_selected</item>
+    </style>
+
+
+    <!--Style for view line of list of songs-->
+    <style name="viewListOfSongs">
+        <item name="android:layout_marginTop">@dimen/view_margin_top</item>
+        <item name="android:background">@color/view</item>
+    </style>
+
+    <!--Style for text description activity-->
+    <style name="descriptionText">
+        <item name="android:padding">@dimen/description_padding</item>
+        <item name="android:textSize">@dimen/description_text</item>
+       <item name="android:background">@color/description_text_background</item>
+    </style>
+
+    <!--Style player button-->
+    <style name="playerButton">
+        <item name="android:layout_width">@dimen/player_button_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/player_background</item>
+    </style>
+
+    <!--Style for song list: category song-->
+    <style name="songText">
+        <item name="android:text">@string/song_name</item>
+        <item name="android:textSize">@dimen/list_song</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/list_song_color</item>
+    </style>
+
+    <!--Style for song list: category artist-->
+    <style name="artistText">
+        <item name="android:text">@string/artist_name</item>
+        <item name="android:textSize">@dimen/list_song</item>
+        <item name="android:textColor">@color/list_song_color</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <!--Style for song list: category album-->
+    <style name="albumText">
+        <item name="android:text">@string/album_name</item>
+        <item name="android:textSize">@dimen/list_song</item>
+        <item name="android:textColor">@color/list_song_color</item>
+
+    </style>
+
+</resources>

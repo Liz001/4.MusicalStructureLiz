@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#4A148C</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#2F1D1A</color>
+
+    <!-- Background color for app -->
+    <color name="tan_background">#E1BEE7</color>
+
+    <color name="description_text_background">#FFF9C4</color>
+
+    <!-- Background color for the banner base(album, artist, playlist, track) category -->
+    <color name="category_banner_base">#7B1FA2</color>
+
+    <!-- Background color for the banner selected (album, artist, playlist, track) category -->
+    <color name="category_banner_selected">#9C27B0</color>
+
+    <!--Text color-->
+    <color name="banner_item_text">#FFFFFF</color>
+    <color name="list_song_color">#000000</color>
+
+    <!--View color-->
+    <color name="view">#9E9E9E</color>
+
+    <!--Player button background-->
+    <color name="player_background">#6A1B9A</color>
+
+</resources>
